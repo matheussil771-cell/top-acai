@@ -1,12 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./App";
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+export { default as Navbar } from "./Navbar";
+export { default as Hero } from "./Hero";
+export { default as Marquee } from "./Marquee";
+export { default as Produtos } from "./Produtos";
+export { default as PedidoSection } from "./PedidoSection";
+export { default as ProductCard } from "./ProductCard";
